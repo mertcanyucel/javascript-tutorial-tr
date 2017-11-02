@@ -7,19 +7,19 @@ Bakalım Javascript'in özelliği ne, ne yapılır ve hangi teknolojilerle birli
 
 *JavaScript* aslen *"web sayfalarına canlılık"* getirmek için oluşturulmuştur.
 
-Bu dilde yapılan programlara *scripts* denir. Doğrudan HTML içerisine yazılıp sayfa yüklendiğinde doğrudan çalışabilir.
+Bu dilde yapılan programlara *scripts* denir. Doğrudan HTML kodu içerisine yazılıp sayfa yüklendiğinde doğrudan çalışabilir.
 
-Komutlar hergi bir derleme ve hazırlığa ihtiyaç duymadan doğrudan çalışırlar.
+Komutlar herhangi bir derleme ve hazırlığa ihtiyaç duymadan doğrudan çalışırlar.
 
 Bu yönden bakınca Javascript diğer dillere nazaran oldukça farklıdır.Bkz: [Java](http://en.wikipedia.org/wiki/Java).
 
 
 ```smart header="Neden <u>Java</u>Script?"
-Javascript ilk yazıldığında, başka bir adı vardı: "LiveScript". Fakat Java dili o dönemlerde çok meşur olduğundan dolayı yeni bir dil ve "küçük kardeş" gibi görünmesi açısından Javascript olarak değiştirildi edildi.
+Javascript ilk yazıldığında, başka bir adı vardı: "LiveScript". Fakat Java dili o dönemlerde çok meşhur olduğundan dolayı yeni bir dil ve "küçük kardeş" gibi görünmesi açısından Javascript olarak değiştirildi.
 
 Fakat Javascript gelişerek kendince şartnameleri [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript) olan bağımsız bir dil haline geldi. Şu anda Java ile hiç bir ilgisi bulunmamaktadır.
 ```
-Şu anda Javascript sadece web tarayıcıda değil sunucuda veya 
+Günümüzde Javascript sadece web tarayıcıda değil, sunucuda veya 
 [ JavaScript motoru](https://en.wikipedia.org/wiki/JavaScript_engine) olan her yerde çalışmaktadır.
 
 Tarayıcılar bu Javascript motoru gömülü bir şekilde gelirler. Bu ayrıca "Javascript sanal makinesi" olarak da adlandırılır.
@@ -30,7 +30,7 @@ Bu Javascript motorlarından bazıları şunlardır;
 - [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) --  Firefox.
 - Internet Explorer'ın "Trident", "Chakra" kod isimli motorlarının yanında Microsoft Edge için "ChakraCore" adında ayrı bir motoru bulunmaktadır. Safari ise "Nitro","SquirrelFish" gibi kod adlarına sahip Javascript motoru kullanmaktadır.
 
-Yukarıdaki terimleri ezberlerseniz iyi olur, çünkü ileride şöyle bir cümle gelebilir  "X özelliği V8 tarafından desteklenmektedir". Bu özelliğin Chrome ve Opera tarafından desteklendiğini anlamanız gerekir.
+Yukarıdaki terimleri ezberlerseniz iyi olur, çünkü ileride şöyle bir cümle ile karşılaşabilirsiniz "X özelliği V8 tarafından desteklenmektedir". Bu özelliğin Chrome ve Opera tarafından desteklendiğini anlamanız gerekir.
 
 ```smart header="Javascript Motoru Nasıl Çalışır?"
 
@@ -99,22 +99,22 @@ Yeni bir teknolojiyi öğrenirken geleceğe dair öngörüsü önemlidir. Öyley
 
 ## Javascript'e üstün diller
 
-Javascript'in yazımı herkese uymayabilir. Her yiğidin yoğurt yiyişi ayrıdır. 
+Javascript'in sözdizimi ve yazımı herkese uymayabilir. Her yiğidin yoğurt yiyişi ayrıdır. 
 
 Bu beklenen birşey aslında, çünkü projeler ve gereksinimler kişiden kişiye göre değişir.
 
-Bundan dolayı yakın zamanda bir sürü yeni *transpiled* yani çevirilmiş diller üredi. Bu dillerde yazdıktan sonra çalıştırılmadan Javascript'e çevriliyor. Modern araçlar bu çeviri işini çok hızlı bir şekilde yapmaktadır. Aslında doğrudan siz yazarken bile çevirme işini yapıp bu yeni dosyayı kullanılabilir hale getirirler.
+Bundan dolayı yakın zamanda bir sürü yeni *transpiled* yani çevirilmiş diller türemiştir. Bu dillerde yazdıktan sonra çalıştırılmadan Javascript'e çevriliyor. Modern araçlar bu çeviri işini çok hızlı bir şekilde yapmaktadır. Aslında doğrudan siz yazarken bile çevirme işini yapıp bu yeni dosyayı kullanılabilir hale getirirler.
 
 Bu dillere örnek vermek gerekirse: 
 
 - [CofeeScript](http://coffeescript.org) Javascript için "şeker yazım" denebilecek bir dildir. Yazılımı daha kısadır ve daha temiz kod yazmaya yardımcı olur.
 
 - [Typescript](http://www.typescriptlang.org/) statik veri yapıları ile Javascript yazılmasını sağlar. Karmaşık programlar geliştirmeyi kolaylaştırır. Microsoft tarafından geliştirilmiştir.
-- [Dart](https://www.dartlang.org/) kendi başına ayrı bir dildir aslında. Browser üzerinde veya telefon uygulamalarında kendi motoru üzerinden çalışılır. Google tarafından Javascript'in yerine önerilmiş olmasına rağmen bu günlerde Javascript'e çeviri yapılarak kullanılmakta.
+- [Dart](https://www.dartlang.org/) kendi başına ayrı bir dildir aslında. Browser üzerinde veya telefon uygulamalarında kendi motoru üzerinden çalışılır. Google tarafından Javascript'in yerine önerilmiş olmasına rağmen bu günlerde Javascript'e çeviri yapılarak kullanılmaktadır.
 
 Aslında daha fazla örnek bulunabilir. Yukarıdaki bilseniz bile ne yaptığınızı tam olarak anlamak için Javascript bilmelisiniz.
 
 ## Özet
-- Javascript başlangıçta sadece browser için geliştirilmiş bir dildi fakat günümüzde bir çok çevrede çalışabilir durumda.
+- Javascript başlangıçta sadece web tarayıcılarda kullanılmak üzere geliştirilmiş bir dildi. Fakat günümüzde bir çok çevrede çalışabilir durumda.
 - Javascript şu anda HTML/CSS ile entegre olmasından ve geniş uyumluluğundan dolayı benzersizdir.
-- Bir çok Javascripte çevirici dil bulunmaktadır. Javascript'i iyi bir şekilde öğrendikten sonra bu dillere de bir bakıvermenizi öneririm.
+- Bir çok Javascripte çevirici dil bulunmaktadır. Javascript'i iyi bir şekilde öğrendikten sonra bu dillere de bir bakmanızı öneririm.

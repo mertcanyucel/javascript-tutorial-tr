@@ -1,5 +1,5 @@
 
-The answer is:
+Cevap:
 
 - `a = 2`
 - `b = 2`
